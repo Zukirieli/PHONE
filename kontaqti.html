@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>კონტაქტი</title>
+</head>
+<style>
+    .PirveliDiv {
+        margin: auto;
+        border-style: solid;
+        width: 1500px;
+        height: 270px;
+        border-color: transparent;
+        border-radius: 30px;
+        margin-bottom: 50px;
+        background-image: linear-gradient(to bottom right, #FC5A69, #FB8883)
+    }
+</style>
+
+<body style="background-color: #ADF8FF;">
+
+    <body style="background-color: #ADF8FF;">
+        <form action="/search" method="get">
+            <input type="text" placeholder="ძებნა..." name="q">
+            <button type="submit">ძებნა</button>
+        </form>
+
+
+        <div class="pirveli">
+            <li> <a href="axali.html"> მთავარი </a> </li>
+            <li> <a href="shesaxeb.html"> ჩვენს შესახებ </a> </li>
+            <li>
+                <div class="dropdown"> <a href="#">სერვისები</a>
+                    <div class="dropdown-content">
+                        <p><a href="yidva.html">ყიდვა </a></p>
+                        <p> <a href="#"> გაყიდვა </a> </p>
+                        <p> <a href="#"> ჩაბარება </a> </p>
+                        <p> <a href="#">გადაცვლა </a>
+                        </p>
+            </li>
+            <li> <a href="kontaqti.html"> კონტაქტი </a> </li>
+            </div>
+            <div class="PirveliDiv">
+                <h1 style="color:black; text-align: center;">კონტაქტი</h1>
+                <p style="color: black; text-align: center;">თუ გაქვთ რაიმე სახის პრობლემა, შეგიძლიათ დაუკავშირდეთ ადმინისტრაციას!</p>
+                <form action="submit-form.php" method="post">
+                    <center>
+                        <label for="name">სახელი:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">ელ-ფოსტა:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">მესიჯი:</label>
+                        <textarea id="message" name="message" required></textarea>
+
+                        <button type="submit">გაგზავნა</button>
+                    </center>
+                </form>
+            </div>
+            <div class="contact" id="contact">
+                <h1>კონტაქტი</h1>
+                <ul>
+                    <li><a href="https://www.instagram.com/tevtidzezuka/">Instagram</a></li>
+                    <li><a href="https://www.facebook.com/tevtman">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/tevtidzezuka/">Instagram</a></li>
+                </ul>
+            </div>
+            <div class="AdDiv">
+                <marquee style="font-size: 20px; font-family: segoe ui; margin-bottom: 25px;">&#9742 მისამართი: ბათუმი, შ.ხიმშიაშვილის 39</marquee>
+            </div>
+    </body>
+
+</html>
